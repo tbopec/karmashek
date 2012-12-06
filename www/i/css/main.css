@@ -112,11 +112,20 @@ html, body { height: 100%; margin: 0; padding: 0; }
 .vk_icon { 
 	background: url("../images/vk_icon.png") no-repeat;
 }
+.vk_icon:hover { 
+	background: url("../images/vk_icon_active.png") no-repeat;
+}
 .fb_icon { 
 	background: url("../images/facebook_icon.png") no-repeat;
 }
+.fb_icon:hover { 
+	background: url("../images/facebook_icon_active.png") no-repeat;
+}
 .twitter_icon { 
 	background: url("../images/twitter_icon.png") no-repeat;
+}
+.twitter_icon:hover { 
+	background: url("../images/twitter_icon_active.png") no-repeat;
 }
 
 .menu {
