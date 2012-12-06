@@ -1,7 +1,7 @@
 <?php
 class DB {
 	private static /*string*/ $login = "root";
-	private static /*string*/ $password = "123";
+	private static /*string*/ $password = "";
 	private static /*string*/ $dbname = "karmashek";
 	
 	private static /*mysqli*/ function GetConnection() {
