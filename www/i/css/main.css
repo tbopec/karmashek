@@ -1,0 +1,259 @@
+html, body { height: 100%; margin: 0; padding: 0; }
+* {
+	margin: 0;
+	padding: 0;
+	position: relative;	
+	font-family: "Arial";
+	font-size: 12px;
+}
+.float-left {
+	float: left;
+}
+.float-right {
+	float: right;
+}
+.clear {
+    float: none !important;
+    clear: both !important;
+    height: 0;
+}
+.wrapper {
+	width: 100%;
+	height: auto;
+	min-height: 100%;
+	background: #f4f4f4;
+}
+.header_wrapper {
+	width: 100%;
+	height: 92px;
+	background: url("../images/head.png") repeat-x;	
+	z-index: 2;
+}
+.header {
+	width: 941px;
+	height: 92px;	
+	z-index: 2;
+	margin: 0 auto;
+}
+
+.navigation_wrapper {
+	width: 100%;	
+	height: 110px;
+	background: #f4f4f4;
+	z-index: 1;
+}
+.navigation {
+	width: 941px;
+	height: 110px;	
+	z-index: 1;
+	margin: -8px auto;
+}
+.in_my_pocket {
+	width: 193px;
+	height: 24px;
+	background: url("../images/in_my_pocket.png") no-repeat;
+	margin: 50px 0 0 3px;
+}
+
+.logo {
+	margin: 20px 0 0 3px;
+	width: 171px;
+	height: 46px;
+	background: url("../images/logo.png") no-repeat;
+}
+.user_area {
+	margin: 25px 0 0 0;		
+	cursor: pointer;
+}
+.green_arrow {	
+	width: 7px;
+	height: 7px;
+	background: url("../images/green_arrow.png") no-repeat;
+	margin: 4px 0 0 5px;
+}
+.user_name {	
+	color: #84a700;
+	font-size: 14px;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	background: #d0cfca;
+	width: 100%;
+	height: 70px;
+	font-size: 12px;
+	color: #4a4a4a;	
+}
+#empty {
+	height: 70px;
+}
+.footer_copyright {
+	margin: 20px 0 0 30px;
+}
+.footer_about {
+	margin: 20px 0 0 30px;
+}
+.footer_sn {
+	margin: 20px 0 0 30px;
+}
+.footer_sn_text {
+
+}
+.footer_sn_icons {
+	margin: 0 0 0 10px;
+}
+.footer_icon {
+	width: 30px;
+	height: 30px;
+	margin: 0 10px 0 0;
+	cursor: pointer;
+}
+.vk_icon { 
+	background: url("../images/vk_icon.png") no-repeat;
+}
+.fb_icon { 
+	background: url("../images/facebook_icon.png") no-repeat;
+}
+.twitter_icon { 
+	background: url("../images/twitter_icon.png") no-repeat;
+}
+
+.menu {
+	margin: -18px 0 0 0;
+}
+.menu_column {
+	margin: 0 0 0 18px;
+}
+.menu_item {
+	width: 47px;
+	height: 78px;
+	cursor: pointer;
+}
+.menu_text {
+	font-size: 11px;
+	color: #636363;
+	margin: 5px 0 0 0;
+	width: 47px;
+}
+.menu_delete {
+	background: url("../images/menu_delete.png") no-repeat;
+}
+.menu_share {
+	background: url("../images/menu_share.png") no-repeat;
+}
+.menu_just_folder {
+	background: url("../images/menu_just_folder.png") no-repeat;
+}
+.menu_add_folder {
+	background: url("../images/menu_add_folder.png") no-repeat;
+}
+.menu_add {
+	background: url("../images/menu_add.png") no-repeat;
+}
+.table_wrapper {
+	width: 100%;
+	background: #f4f4f4;
+}
+.table_bottom {
+	width: 100%;
+	height: 100px;
+	background: #f4f4f4;	
+}
+.table {
+	width: 941px;
+	margin: 0 auto;
+}
+.table_row {
+	width: 941px;
+	height: 65px;
+	background: #bfd62a;		
+}
+.table_row_hovered {
+	background: #bfd62a;
+}
+.table_row_not_hovered {
+	background: #f4f4f4;
+}
+.table_border {
+	width: 941px;
+	height: 2px;
+	background: url("../images/table_border.png") repeat-x;	
+}
+.checkbox_column {
+	width: 45px;
+}
+.pic_column {
+	width: 47px;
+}
+.caption_column {
+	font-size: 16px;
+	color: #393939;
+	padding: 25px 0 0 35px;
+	width: 215px;
+}
+.desc_column {
+	font-size: 12px;
+	color: #393939;
+	width: 375px;
+	padding: 25px 0 0 20px;
+	
+}
+.add_info_column {
+	font-size: 12px;
+	color: #393939;
+	padding: 25px 0 0 30px;
+	width: 77px;
+}
+.controls_column {
+	padding: 18px 0 0 20px;
+}
+.edit_control {
+	width: 34px;
+	height: 33px;
+	background: url("../images/edit_round.png") no-repeat;
+	margin: 0 3px 0 0;
+	cursor: pointer;
+}
+.delete_control {
+	width: 34px;
+	height: 33px;
+	background: url("../images/delete_round.png") no-repeat;
+	cursor: pointer;
+}
+.styled_checkbox {
+	margin: 28px 0 0 13px;		
+}
+.styled_checkbox_not_selected {
+	width: 14px;
+	height: 14px;
+	background: url("../images/checkbox.png") no-repeat;
+}
+.styled_checkbox_selected {	
+	width: 14px;
+	height: 14px;
+	background: url("../images/checkbox_selected.png") no-repeat;
+}
+.pic_folder {
+	width: 33px;
+	height: 25px;
+	background: url("../images/brown_folder.png") no-repeat;	
+	margin: 19px 0 0 13px;
+}
+.pic_preview {
+	width: 60px;
+	height: 60px;
+	background: url("../images/image_border.png") no-repeat;
+	margin: 4px 0 0 0;
+	padding: 4px 0 0 5px;
+}
+.pic_preview_image {
+	width: 50px;
+	height: 50px;	
+	background: url("../images/test_image.png") no-repeat;
+}
+.mylink {
+	color: #ab3304;
+	font-size: 16px;
+	cursor: pointer;
+}

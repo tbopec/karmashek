@@ -1,0 +1,441 @@
+html, body { height: 100%; margin: 0; padding: 0; }
+* {	
+	margin: 0;
+	padding: 0;	
+	font-family: "Arial";
+	font-size: 12px;
+}
+.float-left {
+	float: left;
+	position: relative;	
+}
+.float-right {
+	float: right;
+	position: relative;	
+}
+.clear {
+	clear: all;
+	position: relative;	
+}
+.wrapper {
+	width: 100%;	
+	height: auto;
+	min-height: 100%;
+	background: #f4f4f4;
+	position: relative;	
+}
+.header_wrapper {
+	width: 100%;
+	height: 92px;
+	background: url("../images/head.png") repeat-x;	
+	z-index: 2;
+	position: relative;	
+}
+.header {
+	width: 941px;
+	height: 92px;	
+	z-index: 2;
+	margin: 0 auto;
+	position: relative;	
+}
+
+.main_content_wrapper {
+	width: 100%;
+	background: #f4f4f4;
+	z-index: 1;	
+	position: relative;	
+}
+.main_content {
+	width: 941px;
+	
+	z-index: 1;
+	margin: -8px auto;
+	position: relative;	
+}
+
+.logo {
+	margin: 20px 0 0 0;
+	width: 171px;
+	height: 46px;
+	background: url("../images/logo.png") no-repeat;
+	position: relative;	
+}
+.enter-button {
+	margin: 25px 0 0 0;
+	width: 62px;
+	height: 33px;
+	background: url("../images/enter_button.png") no-repeat;
+	cursor: pointer;
+	position: relative;	
+}
+.main_text {
+	margin: 0 auto;
+	width: 563px;
+	height: 44px;
+	background: url("../images/main_text.png") no-repeat;
+	position: relative;	
+}
+.offer_use {
+	background: url("../images/vertical_lines.png") no-repeat;
+	position: relative;	
+}
+.bottom_line_wrapper {	
+	width: 100%;
+	height: 24px;
+	background: url("../images/bottom_line.png") repeat-x;
+	margin: -50px 0 0 0;
+	z-index: 3;
+	position: relative;	
+}
+
+.offers_wrapper {	
+	width: 100%;
+	background: #fff;
+	z-index: 3;
+	margin: 0 0 50px 0;
+	position: relative;	
+}
+.offers {
+	margin: 0 auto 0;
+	width: 906px;
+	background: #fff;
+	z-index: 3;
+	height: 150px;
+	position: relative;			
+}
+.offer_element {
+	width: 302px;
+	height: 150px;	
+	margin: 15px 0 0 0;
+	padding: 10px 0 0 0;
+	position: relative;	
+}
+.offer_element_about {
+	width: 302px;	
+	padding: 0 10px 0 15px;	
+	position: relative;	
+}
+.offer_element_more {
+	width: 302px;
+	position: relative;	
+}
+.offer_element_more .button {
+	width: 74px;
+	height: 26px;
+	background: url("../images/more_button.png") no-repeat;
+	margin: 0 30px 0 0;
+	cursor: pointer;
+	position: relative;	
+}
+
+.offer_element_about .icon {
+	width: 50px;
+	height: 50px;
+	position: relative;	
+}
+.offer_element_about .left_column {
+	position: relative;	
+}
+.offer_element_about .right_column {
+	height: 95px;
+	width: 187px;
+	position: relative;	
+}
+.save_icon {
+	background: url("../images/save_image.png") no-repeat;
+	position: relative;	
+}
+.use_icon {
+	background: url("../images/use_image.png") no-repeat;
+	position: relative;	
+}
+.share_icon {
+	background: url("../images/share_image.png") no-repeat;
+	position: relative;	
+}
+.offer_element_about  .right_column .offer_header {
+	width: 187px;
+	margin: 0 0 10px 20px;	
+	font-size: 16px;
+	font-weight: bold;
+	color: #000;
+	position: relative;	
+}
+.offer_element_about  .right_column .offer_text {
+	width: 187px;
+	margin: 0px 0 20px 20px;		
+	font-size: 12px;	
+	color: #565656;
+	position: relative;	
+}
+.footer {
+	position: absolute;
+	bottom: 0;
+	background: #d0cfca;
+	width: 100%;
+	height: 70px;
+	font-size: 12px;
+	color: #4a4a4a;		
+}
+#empty {
+	height: 70px;
+	position: relative;	
+}
+
+.footer_copyright {
+	margin: 20px 0 0 30px;
+	position: relative;	
+}
+.footer_about {
+	margin: 20px 0 0 30px;
+	position: relative;	
+}
+.footer_sn {
+	margin: 20px 0 0 30px;
+	position: relative;	
+}
+.footer_sn_text {
+	position: relative;	
+}
+.footer_sn_icons {
+	margin: 0 0 0 10px;
+	position: relative;	
+}
+.footer_icon {
+	width: 30px;
+	height: 30px;
+	margin: 0 10px 0 0;
+	cursor: pointer;
+	position: relative;	
+}
+.vk_icon { 
+	background: url("../images/vk_icon.png") no-repeat;
+	position: relative;	
+}
+.fb_icon { 
+	background: url("../images/facebook_icon.png") no-repeat;
+	position: relative;	
+}
+.twitter_icon { 
+	background: url("../images/twitter_icon.png") no-repeat;
+	position: relative;	
+}
+
+.registration_header {
+	height: 74px;
+	padding: 30px 0 0 0;
+	position: relative;	
+}
+.table_border {
+	width: 941px;
+	height: 2px;
+	margin: 15px 0 0 0;
+	background: url("../images/table_border.png") repeat-x;
+	position: relative;	
+}
+.registration_text {
+	width: 95px;
+	height: 22px;
+	background: url("../images/registration_text.png") no-repeat;
+	position: relative;	
+}
+.margin_l {
+	margin: 0 0 19px 0;
+	position: relative;	
+}
+.margin_b {
+	margin: 0 0 35px 0;
+	position: relative;	
+}
+.margin_sb {
+	margin: 0 0 45px 0;
+	position: relative;	
+}
+.registration_form_item {
+	position: relative;	
+}
+
+.form_label {
+	position: relative;	
+}
+.email_text {
+	width: 81px;
+	height: 12px;
+	background: url("../images/email_text.png") no-repeat;		
+	margin: 0 0 7px 0;
+	position: relative;	
+}
+.pass_text {
+	width: 55px;
+	height: 15px;
+	background: url("../images/password_text.png") no-repeat;		
+	margin: 0 0 5px 0;
+	position: relative;	
+}
+.pass_again_text {
+	width: 136px;
+	height: 15px;
+	background: url("../images/password_again_text.png") no-repeat;		
+	margin: 0 0 5px 0;
+	position: relative;	
+}
+.nic_text {
+	width: 116px;
+	height: 14px;
+	background: url("../images/nickname_text.png") no-repeat;		
+	margin: 0 0 5px 0;
+	position: relative;	
+}
+
+.form_item_content {
+	height: 40px;	
+	position: relative;	
+}
+.my_input[type="text"],[type="password"] {
+	position: relative;	
+	behavior: url(PIE.htc);
+	float: left;
+	margin: 5px 0px 5px 0px;
+	font-family: Verdana, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	letter-spacing: normal;
+	line-height: 24px;
+	padding: 4px 4px 5px 4px;
+	width: 300px;
+	height: 30px;
+	border: 1px solid #DDD;
+	background-color: #F9F9F9;
+	font-weight: bold;
+	color: #7e7e7e;
+	position:relative;
+	
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 0px 0px 2px #7e7e7e;	
+	-webkit-box-shadow: 1px 1px 1px #7e7e7e;
+	box-shadow: 1px 1px 1px #7e7e7e;
+
+}
+
+.registration_button {
+	width: 159px;
+	height: 40px;
+	background: url("../images/register_button.png") no-repeat;			
+	cursor: pointer;
+	margin: 0 0 20px 0;
+	position: relative;	
+}
+.alert_icon {
+	width: 27px;
+	height: 26px;
+	background: url("../images/alert_symbol.png") no-repeat;			
+	margin: 12px 0 0 15px;
+}
+.alert_text {
+	color: #ab3304;
+	font-size: 12px;
+	margin: 17px 0 0 10px;
+	
+}
+
+
+
+
+
+
+
+.enter_content {
+	position: relative;	
+	width: 204px;
+	height: 170px;
+	background: url("../images/enter_back.png") no-repeat;
+	position: relative;
+}
+
+.my_input_margin {
+	margin: 5px 0px 4px 12px;
+}
+.my_input_enter[type="text"], .my_input_enter[type="password"] {
+	position: relative;	
+	behavior: url(PIE.htc);
+	float: left;	
+	font-family: Verdana, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	letter-spacing: normal;
+	line-height: 24px;
+	padding: 4px 4px 5px 4px;
+	width: 170px;
+	height: 20px;
+	border: 1px solid #DDD;
+	background-color: #F9F9F9;
+	font-weight: bold;
+	color: #7e7e7e;
+	position:relative;
+	
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 0px 0px 2px #7e7e7e;	
+	-webkit-box-shadow: 1px 1px 1px #7e7e7e;
+	box-shadow: 1px 1px 1px #7e7e7e;
+
+}
+
+
+
+.margin_check {
+	margin: 12px 0 0 13px;		
+}
+
+.styled_checkbox {
+	
+}
+.styled_checkbox_not_selected {
+	width: 14px;
+	height: 14px;
+	background: url("../images/checkbox.png") no-repeat;
+}
+.styled_checkbox_selected {	
+	width: 14px;
+	height: 14px;
+	background: url("../images/checkbox_selected.png") no-repeat;
+}
+
+.remember_me_text {
+	margin: 12px 0 0 10px;
+	font-size: 12px;
+	color: #ab3304;
+}
+.registration_link {
+	font-size: 12px;
+	color: #ab3304;
+	text-decoration: underline;
+	cursor: pointer;
+	margin: 18px 0 0 12px;
+}
+.enter_active_button {
+	width: 79px;
+	height: 30px;
+	background: url("../images/enter_work_button.png") no-repeat;	
+	margin: 10px 12px 0 0;
+	cursor: pointer;
+}
+
+.enter_inside_button {
+	position: relative;	
+	width: 62px;
+	height: 33px;
+	background: url("../images/enter_button.png") no-repeat;
+	cursor: pointer;
+	margin: 0 0 6px 0;
+}
+.enter-panel {
+	position: relative;	
+	margin: 25px 0 0 0;
+	width: 204px;
+	height: 195px;
+	background: url("../images/enter_panel.png") no-repeat;	
+}
